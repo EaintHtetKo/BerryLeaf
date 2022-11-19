@@ -1,0 +1,247 @@
+@font-face {
+    font-family: 'Euclid Circular A regular';
+    src: url(../fonts/Euclid\ Circular\ A\ Regular.ttf);
+}
+@font-face {
+    font-family: 'Euclid Circular A bold' ;
+    src: url(../fonts/Euclid\ Circular\ A\ Bold.ttf);
+}
+@font-face {
+  font-family: 'Euclid Circular A light';
+  src: url(../fonts/Euclid\ Circular\ A\ Light.ttf);
+}
+body{
+  scroll-behavior: smooth;
+}
+.ff-regular{
+    font-family: 'Euclid Circular A regular';
+}
+
+.ff-bold{
+    font-family: 'Euclid Circular A bold';
+}
+.ff-light{
+  font-family: 'Euclid Circular A light';
+  
+}
+.ff-small{
+    font-family: 'Euclid Circular A regular';
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.ff-small-1{
+    font-family: 'Euclid Circular A bold';
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.navbar-toggler {
+    background-color: #34D399;
+}
+.navbar-control-down{
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  z-index: 100;
+}
+.navbar-control-up{
+  position: fixed;
+  top: 30px;
+  left: 0px;
+  width: 100%;
+  z-index: 100;
+}
+/* slider  */
+.swiper {
+  width: 100%;
+  height: 700px;
+  position: static;
+}
+
+.swiper-slide {
+  color: #fff;
+  background: #121927;
+  
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper-button-next{
+ 
+  color: #A4B1CD;
+  
+  background: linear-gradient(0deg, #121927, #121927),
+              linear-gradient(0deg, #1A2432, #1A2432);
+  right: -27px;
+  border-radius: 50%;
+  border: 5px solid #1A2432;
+  width: 25px;
+  height: 25px;
+}
+.swiper-button-prev{
+ 
+  color: #A4B1CD;
+  
+  background: linear-gradient(0deg, #121927, #121927),
+              linear-gradient(0deg, #1A2432, #1A2432);
+  left: -27px;
+  border-radius: 50%;
+  border: 5px solid #1A2432;
+  width: 25px;
+  height: 25px;
+}
+:root {
+  --swiper-navigation-size: 29px;
+}
+.swiper-pagination {
+  color: #61C454;
+}
+
+.carousel-caption{
+  left: -60%;
+}
+
+.form-control{
+  background-color: #1A2432;
+  font-weight: 700;
+  font-family: 'Euclid Circular A regular';
+  line-height: 2.8;
+  border: none;
+  outline: none;
+  color:  #A4B1CD;
+}
+.form-control:focus{
+  border-color: #1A2432;
+}
+
+.accordion{
+  --bs-accordion-color:  #A4B1CD;
+  --bs-accordion-bg:  #1A2432;
+  --bs-accordion-border-color:  #1F2937;
+  --bs-accordion-btn-color: #A4B1CD;
+  --bs-accordion-btn-focus-border-color: #A4B1CD;
+  --bs-accordion-active-bg: #1A2432;
+  --bs-accordion-active-color: #34D399;
+  --bs-accordion-btn-icon: url("../img/angle-down-solid.svg");
+}
+.accordion-button {
+  
+  font-size: 20px;
+  font-weight: 700;
+  
+}
+.faqs-section-color{
+  background: #1A2432;
+
+}
+.footer-fixed{
+  position: fixed;
+  bottom: 70px;
+  right: 50px;
+}
+.footer-icon{
+  width: 50px;
+  height: 50px;
+  background-color: #34D399;
+  border-radius: 50%;
+}
+.footer-fixed.show{
+  display: block !important;
+  
+}
+@media screen and (min-width:320px){
+  .swiper{
+   height: 704px;
+  }
+ }
+  @media screen and (min-width:576px){
+   .swiper{
+    height: 583px;
+   }
+  }
+
+  @media screen and (min-width:768px){
+    .swiper{
+      height: 410px;
+     }
+  }
+
+  @media screen and (min-width:992px){
+    .swiper{
+      height: 600px;
+     }
+  }
+  @media screen and (min-width:320px){
+    .swiper-button-next{
+      right: -16px;
+      width: 35px;
+      height: 35px;
+    }
+    .swiper-button-prev{
+      left: -16px;
+      width: 35px;
+      height: 35px;
+    }
+    :root {
+      --swiper-navigation-size: 15px;
+    }
+   }
+  @media screen and (min-width:576px){
+    .swiper-button-next{
+      right: -16px;
+      width: 35px;
+      height: 35px;
+    }
+    .swiper-button-prev{
+      right: -16px;
+      width: 35px;
+      height: 35px;
+    }
+    :root {
+      --swiper-navigation-size: 15px;
+    }
+   }
+
+   @media screen and (min-width:992px){
+    .swiper-button-next{
+      right: -27px;
+      width: 50px;
+      height: 50px;
+    }
+    .swiper-button-prev{
+      left: -27px;
+      width: 50px;
+      height: 50px;
+    }
+    :root {
+      --swiper-navigation-size: 25px;
+    }
+   }
+
+  
+
+   @media screen and (min-width:576px){
+    .carousel-caption{
+      left: -50%;
+    }
+   }
+
+   @media screen and (min-width:320px){
+    .small-text{
+      font-size: 0.8rem;
+    }
+   }
+
+   @media screen and (min-width:576px){
+    .small-text{
+      font-size: 1rem;
+    }
+   }
+   

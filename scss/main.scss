@@ -1,0 +1,73 @@
+$primary: #34D399;
+$secondary: #121927;
+$success: #9ff000;
+$light: #141d2d;
+$font-size-base:              0.8rem;
+$border-radius: 15px;
+$navbar-light-hover-color:          #fff;
+$navbar-light-active-color:         $primary;
+$display-font-sizes: (
+  1: 6rem,
+  2: 3rem,
+  3: 2.25rem,
+  4: 1.875rem,
+  5: 1.25rem,
+  6: 1rem
+);
+$navbar-light-toggler-border-color: $primary;
+:root {
+  --bs-body-font-family:  'Inter', sans-serif;
+}
+$nav-link-color:                    #A4B1CD;
+$nav-tabs-link-active-bg:           $secondary;
+$nav-tabs-link-active-color:        $primary;
+$nav-tabs-border-color:             $secondary;
+
+$nav-tabs-link-active-border-color: $nav-tabs-link-active-bg;
+$nav-tabs-link-hover-border-color:   $nav-tabs-border-color;
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+
+.text-color{
+    color: #A4B1CD;
+    
+}
+.card-bg-color {
+  background: #1A2332;
+
+}
+.card-border-radius{
+  border-radius: 25px;
+}
+.card-color{
+  background: #61C454;
+
+}
+body{
+  background-color: #131c24;
+}
+
+.card-text-color{
+  color: #61C454;
+}
+
+.placeholder-btn-radius {
+  border-radius: 6px;
+}
+
+.navbar{
+  --bs-navbar-color: #A4B1CD;
+}
+
+.carousel-caption-color{
+  background: #475569;
+
+}
+
+.carousel-caption-radius{
+  border-radius: 10px;
+}
