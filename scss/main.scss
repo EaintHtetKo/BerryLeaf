@@ -16,7 +16,7 @@ $display-font-sizes: (
 );
 $navbar-light-toggler-border-color: $primary;
 :root {
-  --bs-body-font-family:  'Inter', sans-serif;
+  --bs-body-font-family:  'Quicksand', sans-serif;
 }
 $nav-link-color:                    #A4B1CD;
 $nav-tabs-link-active-bg:           $secondary;
@@ -26,9 +26,9 @@ $nav-tabs-border-color:             $secondary;
 $nav-tabs-link-active-border-color: $nav-tabs-link-active-bg;
 $nav-tabs-link-hover-border-color:   $nav-tabs-border-color;
 
-@import "../node_modules/bootstrap/scss/bootstrap";
+@import "../node_module/bootstrap/scss/bootstrap";
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
 
 
 

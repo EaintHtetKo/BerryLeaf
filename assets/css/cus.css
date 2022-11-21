@@ -156,14 +156,31 @@ body{
   display: block !important;
   
 }
+.carousel-control-next {
+  right: -78px;
+}
+.carousel-control-prev {
+  left: -78px;
+}
+
+.carousel-control-prev-icon, 
+.carousel-control-next-icon{
+  
+  border-radius: 50%;
+  border: 5px solid #1A2432;
+  width: 50px;
+  height: 50px;
+  
+}
+
 @media screen and (min-width:320px){
   .swiper{
-   height: 704px;
+   height: 616px;
   }
  }
   @media screen and (min-width:576px){
    .swiper{
-    height: 583px;
+    height: 552px;
    }
   }
 
@@ -220,6 +237,8 @@ body{
       width: 50px;
       height: 50px;
     }
+
+    
     :root {
       --swiper-navigation-size: 25px;
     }
@@ -244,4 +263,134 @@ body{
       font-size: 1rem;
     }
    }
+
+   @media screen and (min-width:320px){
+    .placeholder-small{
+      font-size: 0.5rem;
+    }
+   }
+   @media screen and (min-width:576px){
+    .placeholder-small{
+      font-size: 0.8rem;
+    }
+   }
+   @media screen and (min-width:320px){
+    .display-6{
+      font-size: 0.7rem;
+    }
+   }
+   @media screen and (min-width:576px){
+    .display-6{
+      font-size: 0.8rem;
+    }
+   }
+   @media screen and (min-width:768px){
+    .display-6{
+      font-size: 1rem;
+    }
+   }
+   @media screen and (min-width:320px){
+    .display-5{
+      font-size: 0.9rem;
+    }
+   }
+   @media screen and (min-width:576px){
+    .display-5{
+      font-size: 1.25rem;
+    }
+   }
+   @media screen and (min-width:320px){
+    .display-4{
+      font-size: 1.5rem;
+    }
+   }
+   @media screen and (min-width:576px){
+    .display-4{
+      font-size: 1.875rem;
+    }
+   }
+   @media screen and (min-width:320px){
+    .logo{
+      text-align: center;
+    }
+   }
    
+   @media screen and (min-width:992px){
+    .logo{
+      text-align: left;
+    }
+   }
+
+   @media screen and (min-width:320px){
+    .join-btn{
+      text-align: center;
+    }
+   }
+   
+   @media screen and (min-width:992px){
+    .join-btn{
+      text-align: right;
+    }
+   }
+ 
+   @media screen and (min-width:320px){
+    .carousel-control-next {
+      right: -23px;
+    }
+    .carousel-control-prev {
+      left: -23px;
+    }
+    .carousel-control-prev-icon, 
+    .carousel-control-next-icon{
+      
+      border-radius: 50%;
+      border: 3px solid #1A2432;
+      width: 25px;
+      height: 25px;
+      
+    }
+   }
+   @media screen and (min-width:576px){
+    .carousel-control-next {
+      right: -45px;
+    }
+    .carousel-control-prev {
+      left: -45px;
+    }
+    .carousel-control-prev-icon, 
+    .carousel-control-next-icon{
+      
+      border-radius: 50%;
+      border: 5px solid #1A2432;
+      width: 35px;
+      height: 35px;
+      
+    }
+   }
+   
+   
+   @media screen and (min-width:992px){
+    .carousel-control-next {
+      right: -65px;
+    }
+    .carousel-control-prev {
+      left: -65px;
+    }
+    .carousel-control-prev-icon, 
+    .carousel-control-next-icon{
+      
+      border-radius: 50%;
+      border: 5px solid #1A2432;
+      width: 45px;
+      height: 45px;
+      
+    }
+   }
+   @media screen and (min-width:1200px){
+    .carousel-control-next {
+      right: -78px;
+    }
+    .carousel-control-prev {
+      left: -78px;
+    }
+   }

@@ -57,11 +57,11 @@ ScrollReveal().reveal('.duration35', {
   duration: 3500,
 });
 ScrollReveal().reveal('.right', { 
-  origin: 'right' ,
+  origin: 'top' ,
   distance: '100px',
 });
 ScrollReveal().reveal('.left', { 
-  origin: 'left' ,
+  origin: 'top' ,
   distance: '100px',
 });
 ScrollReveal().reveal('.scaleUp', { 
@@ -101,13 +101,13 @@ var swiper = new Swiper(".mySwiper", {
   },
 });
 
-//nav tabs
-const triggerEl = document.querySelector('#myTab button[data-bs-target="#blog"]')
-bootstrap.Tab.getInstance(triggerEl).show()
+// //nav tabs
+// const triggerEl = document.querySelector('#myTab button[data-bs-target="#blog"]')
+// bootstrap.Tab.getInstance(triggerEl).show()
 
-// Select tab by name
+// // Select tab by name
 
-const triggerFirstTabEl = document.querySelector('#myTab li:first-child button')
-bootstrap.Tab.getInstance(triggerFirstTabEl).show() // Select first tab
+// const triggerFirstTabEl = document.querySelector('#myTab li:first-child button')
+// bootstrap.Tab.getInstance(triggerFirstTabEl).show() // Select first tab
 
 
